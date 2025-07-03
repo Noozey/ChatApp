@@ -24,7 +24,7 @@ function App() {
   return (
     <div className="main">
       <div className="side-bar">
-        <span style={{ display: "flex" }}>
+        <span>
           <CreateGroupChat />
           <JoinGroupChat />
         </span>
