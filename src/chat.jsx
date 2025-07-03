@@ -116,9 +116,7 @@ const ChatBubble = ({ text }) => {
   if (!sender) return null;
   return (
     <div
-      style={{
-        margin: 4,
-      }}
+      class ="chat-bubble"
     >
       <div
         style={{
